@@ -1,0 +1,16 @@
+#!/bin/bash
+Fdate=`date +"%m-%d-%Y"`
+Ddate=`date +"%m-%d-%Y"`
+
+python3 /home/scan/nmap-converter/nmap-converter.py /home/scan/$Ddate/portscan1.xml -o /home/scan/$Ddate/portscan_result1.xlsx && python3 /home/scan/nmap-converter/nmap-converter.py /home/scan/$Ddate/portscan2.xml -o /home/scan/$Ddate/Portscan_result2.xlsx && python3 /home/scan/nmap-converter/nmap-converter.py /home/scan/$Ddate/portscan3.xml -o /home/scan/$Ddate/Portscan_result3.xlsx && python3 /home/scan/nmap-converter/nmap-converter.py /home/scan/$Ddate/portscan4.xml -o /home/scan/$Ddate/Portscan_result4.xlsx  && python3 /home/scan/nmap-converter/nmap-converter.py /home/scan/$Ddate/portscan5.xml -o /home/scan/$Ddate/Portscan_result5.xlsx && python3 /home/scan/nmap-converter/nmap-converter.py /home/scan/$Ddate/portscan6.xml -o /home/scan/$Ddate/Portscan_result6.xlsx && python3 /home/scan/nmap-converter/nmap-converter.py /home/scan/$Ddate/portscan7.xml -o /home/scan/$Ddate/Portscan_result7.xlsx
+
+
+
+~
+~
+~
+~
+~
+~
+~
+~

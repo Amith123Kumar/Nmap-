@@ -1,9 +1,9 @@
 # Nmap-
-NMAP results in Excel 
+**NMAP results in Excel - (Note : save all the txt file as ".sh" extention and give execution permission to the files)
 
 step 1 : Clone (00.git repo.txt) git project into your linux distro system.
 
-step 2 : Create a script based on your required ports refer (1.nmap_script.txt) , and our script gives the output in xml file .
+step 2 : Create a script based on  required ports refer (1.nmap_script.txt) , and our script gives the output in xml file .
          Then after we convert xml into excel output using the cloned project.
 
 step 3 : use this script(2.converting to excel .txt) to convert our .xml file to .xlsx 

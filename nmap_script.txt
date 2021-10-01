@@ -1,0 +1,11 @@
+
+
+#!/bin/bash
+#fdate=`date +"%m-%d-%y"`
+Ddate=`date +"%m-%d-%Y"`
+mkdir -p /home/scan/$Ddate
+
+#nmap -sS -sU -iL /root/excel_project/iplist.txt -p 22,25,U:53,5060 -oX /root/excel_project/$Ddate/portscan.xml
+
+nmap  -sS -sU -iL /home/scan/iplist/a.txt -p T:21,22,25,53,80,81,82,84,110,443,465,587,995,1194,2222,2600,3306,4569,5000,5038,5061,8001,8088,8089,8443,U:123,465,4569,1194,2222,69,5060,5061,5160,5161 -oX /home/scan/$Ddate/portscan1.xml
+

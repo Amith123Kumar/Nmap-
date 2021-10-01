@@ -1,0 +1,15 @@
+#!/bin/bash
+Ddate=`date +"%m-%d-%Y"`
+
+
+echo " External Port-scanning results  " | mail -i -s "Port-scanning results $Ddate" -a "FROM:amith***@m" amith****l.com -A /home/scan/$Ddate/portscan_result1.xlsx -A /home/scan/$Ddate/Portscan_result2.xlsx -A /home/scan/$Ddate/Portscan_result3.xlsx -A /home/scan/$Ddate/Portscan_result4.xlsx -A   /home/scan/$Ddate/Portscan_result5.xlsx -A /home/scan/$Ddate/Portscan_result6.xlsx -A /home/scan/$Ddate/Portscan_result7.xlsx
+
+~
+~
+~
+~
+~
+~
+~
+~
+~

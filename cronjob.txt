@@ -1,0 +1,1 @@
+50 10 * * * /home/scan/script/startscript.sh ; /home/scan/script/nmap1.sh ;  /home/scan/script/nmap2.sh ;  /home/scan/script/nmap3.sh ; /home/scan/script/nmap4.sh ;  /home/scan/script/nmap5.sh ;  /home/scan/script/nmap6.sh ;  /home/scan/script/nmap7.sh ;  /home/scan/script/converter.sh ; /home/scan/script/endscript.sh ; /home/scan/script/mail.sh

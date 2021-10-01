@@ -21,4 +21,4 @@ crontab -e
   
  step 6 : To get email notification when the scanning starts  (0.startscript.txt).
   
- step 7 : To get email notification when the scanning ends ( 4.endscript.txt) 
+ step 7 : To get email notification when the scanning ends ( 4.endscript.txt).

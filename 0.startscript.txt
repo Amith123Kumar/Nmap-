@@ -2,5 +2,5 @@
 Ddate=`date +"%m-%d-%Y-%T"`
 
 
-echo " weekend scanning started at $Ddate" | mail -i -s "sript started " -a "FROM:amith.k@****.com" amith.k@****.com
+echo " weekend scanning started at $Ddate" | mail -i -s "sript started " -a "FROM:amith@****.com" amith@****.com
 ~
